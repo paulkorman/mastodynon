@@ -1,0 +1,49 @@
+<% var data = {
+  title: "Заголовок статьи | Мастодинон",
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="container page">
+  <h2 class="title-page">Заголовок статьи</h2>
+  <p class="date">12 ноября 2018</p>
+  <div class="content">
+    <img class="pic-article float-md-left" src="img/article-full-img.jpg" alt="">
+    <h6>Lorem ipsum dolor sit amet</h6>
+    <p>Сonsectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+    <h6>Cum sociis natoque penatibus</h6>
+    <p>Еt magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+    <h6>Aenean euismod bibendum laoreet</h6>
+    <p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+    <ul>
+      <li>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</li>
+      <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </li>
+      <li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</li>
+      <li>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc. Aenean euismod bibendum laoreet.</li>
+    </ul>
+    <a href="#" class="back-list-articles">Вернуться к списку статей</a>
+  </div>
+  <div class="similar-articles">
+    <h2>Похожие статьи</h2>
+    <div class="row">
+      <div class="col-12 col-md-3 item">
+        <img src="img/article-img.jpg" alt="">
+        <h6>Заголовок статьи</h6>
+      </div>
+      <div class="col-12 col-md-3 item">
+        <img src="img/article-img.jpg" alt="">
+        <h6>длинный Заголовок статьи в две строки</h6>
+      </div>
+      <div class="col-12 col-md-3 item">
+        <img src="img/article-img.jpg" alt="">
+        <h6>Заголовок статьи</h6>
+      </div>
+      <div class="col-12 col-md-3 item">
+        <img src="img/article-img.jpg" alt="">
+        <h6>длинный Заголовок статьи в две строки</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>

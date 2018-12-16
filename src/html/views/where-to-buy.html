@@ -1,0 +1,16 @@
+<% var data = {
+  title: "Где купить? | Мастодинон",
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="container page where-to-buy">
+  <h2 class="title-page">Где купить?</h2>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+  </div>
+  <div class="section-button">
+    <a class="btn my-prim-btn" href="#">Купить</a>
+  </div>
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>

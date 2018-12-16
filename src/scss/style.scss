@@ -465,6 +465,19 @@ footer {
     }
     .item {
       margin-bottom: 15px;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      a:hover {
+        color: #0062b2;
+        img {
+          opacity: 1.1;
+        }
+      }
+      a:focus {
+        color: #005499;
+      }
       h6 {
         font-size: 0.875rem;
         font-weight: 500;

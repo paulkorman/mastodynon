@@ -1,6 +1,8 @@
 {
-    "check-mark": "\\f101",
-    "mail": "\\f102",
-    "next": "\\f103",
-    "prev": "\\f104"
+    "arrow-down": "\\f101",
+    "check-mark": "\\f102",
+    "mail": "\\f103",
+    "next": "\\f104",
+    "prev": "\\f105",
+    "scroll-up-btn": "\\f106"
 }

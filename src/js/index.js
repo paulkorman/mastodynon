@@ -11,20 +11,34 @@ $(document).ready(function(){
         items: 1,
         center: true,
         dots: false,
+        nav: true,
+        smartSpeed: 700,
+        //responsive: {
+        //    0: {
+        //        nav: false,
+        //        mouseDrag: false,
+        //        touchDrag: false
+        //    },
+        //    960: {
+        //        nav: true,
+        //        mouseDrag: false,
+        //        smartSpeed: 700,
+        //        animateOut: 'fadeOut',
+        //    }
+        //}
+    });
 
-        responsive: {
-            0: {
-                nav: false,
-                mouseDrag: false,
-                touchDrag: false
-            },
-            960: {
-                nav: true,
-                mouseDrag: false,
-                smartSpeed: 700,
-                animateOut: 'fadeOut',
-            }
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
         }
     });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+
 });
 

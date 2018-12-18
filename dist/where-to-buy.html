@@ -28,7 +28,15 @@
             <ul class="menu">
               <li><a href="about.html">О Мастодиноне</a></li>
               <li><a href="composition.html">Состав</a></li>
-              <li><a href="articles.html">Полезная информация</a></li>
+              <li class="wrap-submenu">
+                <input id="sub-menu-toggle-1" type="checkbox" />
+                <label for="sub-menu-toggle-1" class="arrow-down">Полезная информация</label>
+                <ul class="submenu">
+                  <li><a href="articles.html">Cтатьи</a></li>
+                  <li><a href="#">Подпункт 2</a></li>
+                  <li><a href="#">Подпункт 3</a></li>
+                </ul>
+              </li>
               <li class="active"><a href="where-to-buy.html">Где купить</a></li>
               <li><a href="about-company.html">Производитель</a></li>
             </ul>
@@ -54,6 +62,7 @@
       <div class="section-button"><a class="btn my-prim-btn" href="#">Купить</a></div>
     </div>
 
+    <a href="#" id="scroll" style="display: none;"></a>
     <footer>
       <div class="container">
         <div class="row">

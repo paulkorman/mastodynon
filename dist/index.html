@@ -28,7 +28,15 @@
             <ul class="menu">
               <li><a href="about.html">О Мастодиноне</a></li>
               <li><a href="composition.html">Состав</a></li>
-              <li><a href="articles.html">Полезная информация</a></li>
+              <li class="wrap-submenu">
+                <input id="sub-menu-toggle-1" type="checkbox" />
+                <label for="sub-menu-toggle-1" class="arrow-down">Полезная информация</label>
+                <ul class="submenu">
+                  <li><a href="articles.html">Cтатьи</a></li>
+                  <li><a href="#">Подпункт 2</a></li>
+                  <li><a href="#">Подпункт 3</a></li>
+                </ul>
+              </li>
               <li><a href="where-to-buy.html">Где купить</a></li>
               <li><a href="about-company.html">Производитель</a></li>
             </ul>
@@ -37,58 +45,66 @@
       </div>
     </header>
 
-    <div class="owl-carousel owl-theme">
-      <div class="slide slide-1">
-        <div class="bg-slide">
+    <div class="d-sm-block d-lg-none">
+      <picture>
+        <source srcset="img/girl-on-bike-tablet.jpg" media="(min-width: 540px)" style="height: 190px" />
+        <img src="img/girl-on-bike-mob.jpg" alt="woman" style="width: 100%" />
+      </picture>
+    </div>
+    <div class="d-none d-sm-none d-lg-block">
+      <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+          <div class="bg-slide">
+            <div class="container">
+              <picture>
+                <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
+                <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
+                <img src="img/slide-1-woman-mob.png" alt="woman" />
+              </picture>
+            </div>
+          </div>
           <div class="container">
-            <picture>
-              <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
-              <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
-              <img src="img/slide-1-woman-mob.png" alt="woman" />
-            </picture>
+            <div class="text">
+              Природа создала Вас женщиной - <br />
+              природа поможет оставаться ею <br />
+              в любой период Вашей жизни!
+            </div>
           </div>
         </div>
-        <div class="container">
-          <div class="text">
-            Природа создала Вас женщиной - <br />
-            природа поможет оставаться ею <br />
-            в любой период Вашей жизни!
+        <div class="slide slide-1">
+          <div class="bg-slide">
+            <div class="container">
+              <picture>
+                <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
+                <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
+                <img src="img/slide-1-woman-mob.png" alt="woman" />
+              </picture>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="slide slide-1">
-        <div class="bg-slide">
           <div class="container">
-            <picture>
-              <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
-              <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
-              <img src="img/slide-1-woman-mob.png" alt="woman" />
-            </picture>
+            <div class="text">
+              Природа создала Вас женщиной - <br />
+              природа поможет оставаться ею <br />
+              в любой период Вашей жизни!
+            </div>
           </div>
         </div>
-        <div class="container">
-          <div class="text">
-            Природа создала Вас женщиной - <br />
-            природа поможет оставаться ею <br />
-            в любой период Вашей жизни!
+        <div class="slide slide-1">
+          <div class="bg-slide">
+            <div class="container">
+              <picture>
+                <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
+                <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
+                <img src="img/slide-1-woman-mob.png" alt="woman" />
+              </picture>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="slide slide-1">
-        <div class="bg-slide">
           <div class="container">
-            <picture>
-              <source srcset="img/slide-1-woman-desct.png" media="(min-width: 960px)" />
-              <source srcset="img/slide-1-woman-tablet.png" media="(min-width: 321px)" />
-              <img src="img/slide-1-woman-mob.png" alt="woman" />
-            </picture>
-          </div>
-        </div>
-        <div class="container">
-          <div class="text">
-            Природа создала Вас женщиной - <br />
-            природа поможет оставаться ею <br />
-            в любой период Вашей жизни!
+            <div class="text">
+              Природа создала Вас женщиной - <br />
+              природа поможет оставаться ею <br />
+              в любой период Вашей жизни!
+            </div>
           </div>
         </div>
       </div>
@@ -169,6 +185,7 @@
       </div>
     </div>
 
+    <a href="#" id="scroll" style="display: none;"></a>
     <footer>
       <div class="container">
         <div class="row">

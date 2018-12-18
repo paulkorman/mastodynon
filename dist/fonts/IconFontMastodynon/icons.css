@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?e2e3c95c471485891d97e4cf682c5fe2?#iefix") format("embedded-opentype"),
-url("./icons.woff2?e2e3c95c471485891d97e4cf682c5fe2") format("woff2"),
-url("./icons.woff?e2e3c95c471485891d97e4cf682c5fe2") format("woff"),
-url("./icons.ttf?e2e3c95c471485891d97e4cf682c5fe2") format("truetype"),
-url("./icons.svg?e2e3c95c471485891d97e4cf682c5fe2#icons") format("svg");
+    src: url("./icons.eot?733c474114526ba4e7328d71b053ddd2?#iefix") format("embedded-opentype"),
+url("./icons.woff2?733c474114526ba4e7328d71b053ddd2") format("woff2"),
+url("./icons.woff?733c474114526ba4e7328d71b053ddd2") format("woff"),
+url("./icons.ttf?733c474114526ba4e7328d71b053ddd2") format("truetype"),
+url("./icons.svg?733c474114526ba4e7328d71b053ddd2#icons") format("svg");
 }
 
 i {
@@ -22,15 +22,21 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-check-mark:before {
+.icon-arrow-down:before {
     content: "\f101";
 }
-.icon-mail:before {
+.icon-check-mark:before {
     content: "\f102";
 }
-.icon-next:before {
+.icon-mail:before {
     content: "\f103";
 }
-.icon-prev:before {
+.icon-next:before {
     content: "\f104";
+}
+.icon-prev:before {
+    content: "\f105";
+}
+.icon-scroll-up-btn:before {
+    content: "\f106";
 }

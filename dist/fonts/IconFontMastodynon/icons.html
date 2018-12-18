@@ -54,11 +54,11 @@
 
         @font-face {
     font-family: "icons";
-    src: url("./icons.eot?684178f85cca6078bf80ebede1cab06b?#iefix") format("embedded-opentype"),
-url("./icons.woff2?684178f85cca6078bf80ebede1cab06b") format("woff2"),
-url("./icons.woff?684178f85cca6078bf80ebede1cab06b") format("woff"),
-url("./icons.ttf?684178f85cca6078bf80ebede1cab06b") format("truetype"),
-url("./icons.svg?684178f85cca6078bf80ebede1cab06b#icons") format("svg");
+    src: url("./icons.eot?bf6137f7344d595055c3570509dade22?#iefix") format("embedded-opentype"),
+url("./icons.woff2?bf6137f7344d595055c3570509dade22") format("woff2"),
+url("./icons.woff?bf6137f7344d595055c3570509dade22") format("woff"),
+url("./icons.ttf?bf6137f7344d595055c3570509dade22") format("truetype"),
+url("./icons.svg?bf6137f7344d595055c3570509dade22#icons") format("svg");
 }
 
 i {
@@ -76,17 +76,23 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-check-mark:before {
+.icon-arrow-down:before {
     content: "\f101";
 }
-.icon-mail:before {
+.icon-check-mark:before {
     content: "\f102";
 }
-.icon-next:before {
+.icon-mail:before {
     content: "\f103";
 }
-.icon-prev:before {
+.icon-next:before {
     content: "\f104";
+}
+.icon-prev:before {
+    content: "\f105";
+}
+.icon-scroll-up-btn:before {
+    content: "\f106";
 }
 
 
@@ -95,6 +101,15 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 <body>
 
     <h1>icons</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="icon-arrow-down"></i>
+            </span>
+            <br>
+            <span class='label'>arrow-down</span>
+        </div>
 
 
         <div class="preview">
@@ -130,6 +145,15 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
             </span>
             <br>
             <span class='label'>prev</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="icon-scroll-up-btn"></i>
+            </span>
+            <br>
+            <span class='label'>scroll-up-btn</span>
         </div>
 
 

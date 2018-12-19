@@ -209,6 +209,19 @@ header {
   }
 }
 
+.top-banner {
+  > img {
+    margin-bottom: 15px;
+  }
+  .text {
+    font-weight: 300;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #5e1d69;
+    line-height: 1.3333;
+  }
+}
+
 .menu-button-container {
   display: none;
   height: 100%;
@@ -910,6 +923,22 @@ a#scroll {
       &:first-child {
         margin-left: -18px;
       }
+    }
+  }
+  .top-banner {
+    position: relative;
+    > img {
+      margin-bottom: 15px;
+    }
+    .text {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      font-size: 1.625rem;
+      position: absolute;
+      display: flex;
+      top: 0;
+      align-items: center;
     }
   }
   .owl-carousel .slide {

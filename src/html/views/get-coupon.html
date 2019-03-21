@@ -1,0 +1,84 @@
+<% var data = {
+  title: "О Мастодиноне | Мастодинон",
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="wrap-content">
+  <div class="container page get-coupon">
+    <h2 class="title-page text-center">Получи купон на скидку</h2>
+    <div class="subtitle-page text-center">с 1 апреля по 31 мая</div>
+    <div class="content">
+      <section class="row pos-rel">
+        <div class="col-12 col-md-6">
+          <div class="cloud-1">
+            <p class="text-center">Каждая хорошая хозяйка<br class="d-md-none"> распределяя<br class="d-none d-md-inline"> семейный бюджет<br class="d-md-none"> выделяет статью<br class="d-none d-md-inline d-lg-none"> затрат<br class="d-md-none d-lg-inline"> «Здоровье». В ней она<br class="d-none d-md-inline d-lg-none"> записывает<br class="d-md-none d-lg-inline"> препараты, которые будут<br class="d-lg-none"> эффективны и<br class="d-none d-lg-inline"> максимально<br class="d-md-none"> безвредны.</p>
+          </div>
+        </div>
+        <picture class="women-1">
+          <source srcset="img/women-1-desct.png" media="(min-width: 960px)">
+          <source srcset="img/women-1-tablet.png" media="(min-width: 768px)">
+          <img src="img/women-1-mob.png" alt="">
+        </picture>
+        <div class="col-12 col-md-6">
+          <div class="cloud-2">
+            <p class="text-center">Мастодинон – чисто женский препарат,<br> который должен быть в каждой<br> аптечке, благодаря растительному<br> происхождению и высокой<br> эффективности лечения ПМС,<br> мастопатии и боли в груди.</p>
+          </div>
+        </div>
+      </section>
+      <section class="get-coupon-form">
+        <div class="title-section text-center text-uppercase">
+          А ты экономная хозяйка?<br> Потрать 2 минуты и получи<br class="d-md-none"> 60 <span class="text-lowercase">грн</span> скидки на Мастодинон
+        </div>
+        <form class="questions-form">
+          <div class="pos-rel wrap-groups-radio">
+            <picture class="women-2">
+              <source srcset="img/women-2-desct.png" media="(min-width: 960px)">
+              <source srcset="img/women-2-tablet.png" media="(min-width: 768px)">
+              <img src="img/women-2-mob.png" alt="">
+            </picture>
+            <div class="form-my">
+              <div class="group-radio">
+                <div class="input-group-title text-uppercase">Мастопатия возникает<br class="d-md-none"> в результате:</div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio" name="group-of-radios-1" checked>
+                  <label class="custom-control-label" for="customRadio">Гормонального<br class="d-md-none"> дисбаланса</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio2" name="group-of-radios-1">
+                  <label class="custom-control-label" for="customRadio2">Курения</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio3" name="group-of-radios-1">
+                  <label class="custom-control-label" for="customRadio3">Нарушения питания</label>
+                </div>
+              </div>
+              <div class="group-radio">
+                <div class="input-group-title text-uppercase">ПМС лечится:</div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio4" name="group-of-radios-2" checked>
+                  <label class="custom-control-label" for="customRadio4">Растительными<br class="d-md-none"> препаратами</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio5" name="group-of-radios-2">
+                  <label class="custom-control-label" for="customRadio5">Не лечится вообще</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customRadio6" name="group-of-radios-2">
+                  <label class="custom-control-label" for="customRadio6">Антибиотиками</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group wrap-email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Укажите ваш e-mail">
+          </div>
+        </form>
+      </section>
+    </div>
+    <div class="section-button">
+      <a class="btn my-prim-btn" href="#">Получить купон</a>
+    </div>
+  </div>
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>

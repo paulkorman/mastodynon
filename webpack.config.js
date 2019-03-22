@@ -109,7 +109,7 @@ const config = {
       {
         from: "./src/uploads",
         to: "./uploads"
-      }
+      },
     ]),
     new webpack.ProvidePlugin({
       $: 'jquery',

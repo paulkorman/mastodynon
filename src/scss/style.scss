@@ -934,6 +934,44 @@ a#scroll {
   padding-bottom: 40px;
 }
 
+.title-modal {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #9859a2;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+
+.modal-body {
+  position: relative;
+  padding: 26px 26px 30px;
+}
+
+.modal-body p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.modal-body img.women-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-body .my-prim-btn {
+  min-width: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 14px;
+  font-size: 0.8125rem;
+  line-height: 1;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
 @media (min-width: 321px) and (max-width: 767px) {
   .questions-form {
     width: 320px;
@@ -1335,6 +1373,16 @@ a#scroll {
     padding-top: 0;
     margin-top: -5px;
     padding-bottom: 51px;
+  }
+  .modal-dialog {
+    max-width: 460px;
+  }
+  .modal-content .mrg-l {
+    margin-left: -87px;
+  }
+  .modal-body img.women-3 {
+    top: 20px;
+    right: 67px;
   }
 }
 
